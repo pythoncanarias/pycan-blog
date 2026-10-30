@@ -1,0 +1,10 @@
+[project]
+name = "pycan-blog"
+version = "0.1.0"
+description = "Propuesta de blog propio, para Pythopn Canarias"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django>=6.1,<6.2",
+    "wagtail>=8.0,<8.1",
+]
